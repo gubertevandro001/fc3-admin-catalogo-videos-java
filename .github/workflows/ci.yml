@@ -10,7 +10,6 @@ jobs:
   tests:
     name: Tests runner
     runs-on: ubuntu-latest
-    #Configuração de passos do nosso job
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK@17
